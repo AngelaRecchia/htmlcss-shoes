@@ -27,7 +27,6 @@ header {
 
 .toshoe {
     color: black;
-    background: white;
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 50%;
@@ -56,26 +55,28 @@ header {
     max-width: 40%;
 }
 #shoe1 {
-    background-color: #72874D ;
-    color: #874D55;
+    /* background-color: #72874D ; */
+    background-color: #EDC7b7;
+    /* color: #874D55; */
+    color: #AC3B61;
 }
 
 #shoe2 {
-    background-color: #3E43C9;
-    color: #43C93E;
+    background-color: #BAB2B5;
+    color: #123C69;
 }
 
 #shoe3 {
-    background-color: #8C006E;
-    color: #6E8C00;
+    background-color: #AC3B61;
+    color: #EDC7b7;
 }
 
 
 .text {
-    font-size: 50px;
+    font-size: 11vh;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 75vh;
+    padding-top: 70vh;
     margin: 0 35%;
 }
