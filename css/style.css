@@ -37,14 +37,17 @@ header {
 }
 
 #toshoe1 {
+    color: #E3AFBC;
     background-color: #9A1750;
 }
 
 #toshoe2 {
+    color: #ce738a;
     background-color: #7b1240;
 }
 
 #toshoe3 {
+    color: #c35571;
     background-color: #6b1038;
 }
 
@@ -70,12 +73,21 @@ header {
     color: #6b1038;
 }
 
+.text-contain {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
 
 .text {
     font-size: 6vh;
     text-transform: lowercase;
     text-align: center;
-    padding-top: 75vh;
-    margin: 0 32%;
+    padding: 5px 30%;
+}
 
+.text-contain:hover .text{
+    background-color: rgba(0, 0, 0, 0.1);
 }
