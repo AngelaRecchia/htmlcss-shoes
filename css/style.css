@@ -9,7 +9,8 @@ html {
 }
 
 body {
-    font-family: 'Kristi', cursive;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
 }
 
 .shoe {
@@ -28,7 +29,7 @@ header {
 .toshoe {
     color: black;
     font-size: 20px;
-    padding: 10px 20px;
+    padding: 10px 13px;
     border-radius: 50%;
     display: inline-block;
     margin-left: 30px;
@@ -36,15 +37,15 @@ header {
 }
 
 #toshoe1 {
-    background-color: #874D55;
+    background-color: #9A1750;
 }
 
 #toshoe2 {
-    background-color: #43C93E;
+    background-color: #7b1240;
 }
 
 #toshoe3 {
-    background-color: #6E8C00;
+    background-color: #6b1038;
 }
 
 .shoe img {
@@ -55,28 +56,26 @@ header {
     max-width: 40%;
 }
 #shoe1 {
-    /* background-color: #72874D ; */
-    background-color: #EDC7b7;
-    /* color: #874D55; */
-    color: #AC3B61;
+    background-color: #E3AFBC;
+    color: #9A1750;
 }
 
 #shoe2 {
-    background-color: #BAB2B5;
-    color: #123C69;
+    background-color: #ce738a;
+    color: #7b1240;
 }
 
 #shoe3 {
-    background-color: #AC3B61;
-    color: #EDC7b7;
+    background-color: #c35571;
+    color: #6b1038;
 }
 
 
 .text {
-    font-size: 11vh;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-size: 6vh;
+    text-transform: lowercase;
     text-align: center;
-    padding-top: 70vh;
-    margin: 0 35%;
+    padding-top: 75vh;
+    margin: 0 32%;
+
 }
