@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Kristi', cursive;
 }
@@ -36,6 +40,14 @@ header {
     background-color: #874D55;
 }
 
+#toshoe2 {
+    background-color: #43C93E;
+}
+
+#toshoe3 {
+    background-color: #6E8C00;
+}
+
 .shoe img {
     position: absolute;
     top: 50%;
@@ -48,11 +60,19 @@ header {
     color: #874D55;
 }
 
+#shoe2 {
+    background-color: #3E43C9;
+    color: #43C93E;
+}
+
+#shoe3 {
+    background-color: #8C006E;
+    color: #6E8C00;
+}
 
 
 .text {
     font-size: 50px;
-    
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
